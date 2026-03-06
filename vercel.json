@@ -1,0 +1,9 @@
+{
+  "name": "eon-cinema-studio",
+  "version": 2,
+  "framework": "nextjs",
+  "cleanUrls": true,
+  "buildCommand": "next build",
+  "installCommand": "npm install --force",
+  "github": { "silent": true, "autoJobCancelation": true }
+}
