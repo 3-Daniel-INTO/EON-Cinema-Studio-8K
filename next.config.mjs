@@ -1,12 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  images: { unoptimized: true },
   env: {
-    RENDER_MODE: "HYPER-REALISTIC-16K",
-    LENS_PROFILE: "ANAMORPHIC-40MM",
-    GRAIN_DENSITY: "0.04",
-    COLOR_SCIENCE: "ACES-LOG-C"
+    GEN: "6-SUPREME",
+    LENS_ENGINE: "NEURAL-PATH-TRACING",
+    AUDIO_ENGINE: "HOLOGRAPHIC-SOUND",
+    PROTECTION: "PATENT-BY-EL-3",
+    QUALITIES: "marketing-automation,video-synthesis,ai-cinematography,ethos-llm,hollywood-standard,independent-ai,digital-human-consistency,16k-video-generation"
   }
 }
 export default nextConfig;
